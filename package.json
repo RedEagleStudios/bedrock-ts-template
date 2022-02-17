@@ -18,6 +18,6 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
-    "serve": "yarn install --force && ts-node-dev --respawn --transpile-only --watch src src/main.ts"
+    "serve": "yarn upgrade bedrock-ts && ts-node-dev --respawn --transpile-only --watch src src/main.ts"
   }
 }
