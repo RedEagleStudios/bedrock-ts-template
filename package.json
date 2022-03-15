@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "src/main.ts",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bedrock-ts": "https://github.com/RedEagleStudios/bedrock-ts/releases/download/v0.1.0/bedrock-ts-v0.1.0.tgz"
+  },
   "devDependencies": {
     "@types/node": "^17.0.10",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -18,6 +20,6 @@
     "typescript": "^4.5.2"
   },
   "scripts": {
-    "serve": "yarn upgrade bedrock-ts && ts-node-dev --respawn --transpile-only --watch src src/main.ts"
+    "serve": "ts-node-dev --respawn --transpile-only --watch src/**/*.ts src/main.ts"
   }
 }
