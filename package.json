@@ -4,7 +4,7 @@
   "main": "src/main.ts",
   "license": "MIT",
   "dependencies": {
-    "bedrock-ts": "https://github.com/RedEagleStudios/bedrock-ts/releases/download/v0.1.8/bedrock-ts-v0.1.8.tgz"
+    "bedrock-ts": "https://github.com/RedEagleStudios/bedrock-ts/releases/download/v0.2.0/bedrock-ts-v0.2.0.tgz"
   },
   "devDependencies": {
     "@types/node": "^17.0.25",
