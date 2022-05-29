@@ -4,7 +4,7 @@
   "main": "src/main.ts",
   "license": "MIT",
   "dependencies": {
-    "bedrock-ts": "https://github.com/RedEagleStudios/bedrock-ts/releases/download/v0.2.0/bedrock-ts-v0.2.0.tgz"
+    "bedrock-ts": "https://github.com/RedEagleStudios/bedrock-ts/releases/download/v0.2.2/bedrock-ts-v0.2.2.tgz"
   },
   "devDependencies": {
     "@types/node": "^17.0.25",
@@ -15,12 +15,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.6.2",
     "prettier-plugin-organize-imports": "^2.3.4",
-    "ts-node": "^10.7.0",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.6.3"
+    "typescript": "^4.7.2"
   },
   "scripts": {
-    "build": "ts-node --transpile-only src/main.ts",
-    "serve": "ts-node-dev --respawn --transpile-only --watch src/**/*.ts src/main.ts"
+    "build": "bedrock-ts",
+    "serve": "bedrock-ts --watch"
   }
 }
