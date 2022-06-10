@@ -32,12 +32,12 @@ jobs:
         uses: vimtor/action-zip@v1
         with:
           files: release/out
-          dest: release.mcaddon
+          dest: ${{github.repository.name}}.mcaddon
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            release.mcaddon
+            *.mcaddon
             *.mcworld
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
