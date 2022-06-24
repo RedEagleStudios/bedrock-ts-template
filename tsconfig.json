@@ -1,14 +1,10 @@
 {
-	"compilerOptions": {
-		"target": "ES2019",
-		"module": "commonjs",
-		"lib": ["ES2019"],
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"strict": true
-	},
-	"ts-node": {
-		"files": true,
-		"pretty": true
-	}
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "lib": ["ES2019"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  }
 }
