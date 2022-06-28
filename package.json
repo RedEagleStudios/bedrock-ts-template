@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "bedrock-ts",
-    "serve": "bedrock-ts --watch"
+    "serve": "bedrock-ts --watch",
+    "lint": "eslint ."
   }
 }
